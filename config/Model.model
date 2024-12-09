@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
-<ns3:modelConfig xsi:type="ns3:ModelConfig" folder="" pauseCalculations="false" entityCode="1" loadPath="gitTestCopy" entityName="gitTest copy" version="49" name="gitTest copy" lastUpdated="2024-12-09T14:08:21.727+02:00" lastUpdatedBy="admin" id="admin:MODEL:gitTestCopy" xmlns:ns6="http://www.modelshop.com/services/account/types" xmlns:ns5="http://www.modelshop.com/datacore/message/types" xmlns:ns8="http://www.modelshop.com/datacore/generator/types" xmlns:ns7="http://www.modelshop.com/datacore/repository/types" xmlns:ns2="http://www.modelshop.com/datacore/view/types" xmlns:ns4="http://www.modelshop.com/services/model/types" xmlns:ns3="http://www.modelshop.com/model/model/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <datalists entityCode="2" entityName="Datalist1" version="19" name="Datalist1" description="" created="2024-12-09T13:46:46.955+02:00" createdBy="admin" lastUpdated="2024-12-09T13:46:46.955+02:00" lastUpdatedBy="admin" id="Datalist1"/>
-    <datalists entityCode="3" entityName="Datalist2" version="23" name="Datalist2" description="" created="2024-12-09T13:54:47.175+02:00" createdBy="admin" lastUpdated="2024-12-09T13:54:47.175+02:00" lastUpdatedBy="admin" id="Datalist2"/>
-    <datalists entityCode="4" entityName="Datalist3" version="31" name="Datalist3" description="" created="2024-12-09T13:57:41.964+02:00" createdBy="admin" lastUpdated="2024-12-09T13:57:41.964+02:00" lastUpdatedBy="admin" id="Datalist3"/>
-    <datalists entityCode="7" entityName="Sheet2" version="46" name="Sheet2" created="2024-12-09T14:08:21.725+02:00" createdBy="admin" lastUpdated="2024-12-09T14:08:21.725+02:00" lastUpdatedBy="admin" id="Sheet2">
+<ns3:modelConfig xsi:type="ns3:ModelConfig" folder="" pauseCalculations="false" entityCode="1" loadPath="gitTestNewCopy2" entityName="gitTestNewCopy2" version="76" name="gitTestNewCopy2" lastUpdated="2024-12-09T14:19:35.568+02:00" lastUpdatedBy="admin" id="admin:MODEL:gitTestNewCopy2" xmlns:ns6="http://www.modelshop.com/services/account/types" xmlns:ns5="http://www.modelshop.com/datacore/message/types" xmlns:ns8="http://www.modelshop.com/datacore/generator/types" xmlns:ns7="http://www.modelshop.com/datacore/repository/types" xmlns:ns2="http://www.modelshop.com/datacore/view/types" xmlns:ns4="http://www.modelshop.com/services/model/types" xmlns:ns3="http://www.modelshop.com/model/model/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <datalists entityCode="2" entityName="Datalist1" version="61" name="Datalist1" description="" created="2024-12-09T13:46:46.955+02:00" createdBy="admin" lastUpdated="2024-12-09T13:46:46.955+02:00" lastUpdatedBy="admin" id="Datalist1"/>
+    <datalists entityCode="3" entityName="Datalist2" version="61" name="Datalist2" description="" created="2024-12-09T13:54:47.175+02:00" createdBy="admin" lastUpdated="2024-12-09T13:54:47.175+02:00" lastUpdatedBy="admin" id="Datalist2"/>
+    <datalists entityCode="4" entityName="Datalist3" version="61" name="Datalist3" description="" created="2024-12-09T13:57:41.964+02:00" createdBy="admin" lastUpdated="2024-12-09T13:57:41.964+02:00" lastUpdatedBy="admin" id="Datalist3"/>
+    <datalists entityCode="7" entityName="Sheet2" version="61" name="Sheet2" created="2024-12-09T14:08:21.725+02:00" createdBy="admin" lastUpdated="2024-12-09T14:08:21.725+02:00" lastUpdatedBy="admin" id="Sheet2">
         <dataFields type="text" fieldCode="100" rawType="java.lang.String" allowNull="true" name="Value" initialized="true" id="Value"/>
         <dataFields type="text" fieldCode="101" rawType="java.lang.String" allowNull="true" name="Sector" initialized="true" id="Sector"/>
         <dataFields type="text" fieldCode="102" readOnly="true" rawType="java.lang.String" name="sourceName" description="Source name" initialized="true" id="sourceName">
@@ -13,7 +13,7 @@
             <defaultValue source="id"/>
         </dataFields>
     </datalists>
-    <datalists entityCode="6" entityName="Strategy" version="46" name="Strategy" created="2024-12-09T14:08:21.726+02:00" createdBy="admin" lastUpdated="2024-12-09T14:08:21.726+02:00" lastUpdatedBy="admin" id="Strategy">
+    <datalists entityCode="6" entityName="Strategy" version="61" name="Strategy" created="2024-12-09T14:08:21.726+02:00" createdBy="admin" lastUpdated="2024-12-09T14:08:21.726+02:00" lastUpdatedBy="admin" id="Strategy">
         <dataFields type="text" fieldCode="100" rawType="java.lang.String" allowNull="true" name="Name" initialized="true" id="Name"/>
         <dataFields type="text" fieldCode="101" rawType="java.lang.String" allowNull="true" name="Sector" initialized="true" id="Sector"/>
         <dataFields type="text" fieldCode="102" readOnly="true" rawType="java.lang.String" name="sourceName" description="Source name" initialized="true" id="sourceName">
@@ -23,12 +23,16 @@
             <defaultValue source="id"/>
         </dataFields>
     </datalists>
-    <views allColumns="true" default="true" modelView="true" entityName="gitTest copy" name="gitTest copy" description="Default view for list gitTest" id="gitTest copy"/>
+    <datalists entityCode="15" entityName="Datalist4" version="67" name="Datalist4" description="" created="2024-12-09T14:18:52.142+02:00" createdBy="admin" lastUpdated="2024-12-09T14:18:52.142+02:00" lastUpdatedBy="admin" id="Datalist4"/>
+    <datalists entityCode="16" entityName="Datalist5" version="74" name="Datalist5" description="" created="2024-12-09T14:19:35.568+02:00" createdBy="admin" lastUpdated="2024-12-09T14:19:35.568+02:00" lastUpdatedBy="admin" id="Datalist5"/>
+    <views allColumns="true" default="true" modelView="true" entityName="gitTestNewCopy2" name="gitTestNewCopy2" description="Default view for list gitTest" id="gitTestNewCopy2"/>
     <views allColumns="true" default="true" entityName="Datalist1" name="Datalist1" description="Default view for list Datalist1" id="Datalist1"/>
     <views allColumns="true" default="true" entityName="Datalist2" name="Datalist2" description="Default view for list Datalist2" id="Datalist2"/>
     <views allColumns="true" default="true" entityName="Datalist3" name="Datalist3" description="Default view for list Datalist3" id="Datalist3"/>
     <views allColumns="true" default="true" entityName="Sheet2" name="Sheet2" description="Default view for list Sheet2" id="Sheet2"/>
     <views allColumns="true" default="true" entityName="Strategy" name="Strategy" description="Default view for list Strategy" id="Strategy"/>
+    <views allColumns="true" default="true" entityName="Datalist4" name="Datalist4" description="Default view for list Datalist4" id="Datalist4"/>
+    <views allColumns="true" default="true" entityName="Datalist5" name="Datalist5" description="Default view for list Datalist5" id="Datalist5"/>
     <connectors layoutDetected="true" entityName="Sheet2" version="46" name="Sheet2" created="2024-12-09T14:08:21.725+02:00" createdBy="admin" lastUpdated="2024-12-09T14:08:21.725+02:00" lastUpdatedBy="admin" id="Sheet2">
         <connectorFields columnIndex="0" ignore="false" mapField="Value" type="text" rawType="String" allowNull="true" name="Value" id="Value"/>
         <connectorFields columnIndex="1" ignore="false" mapField="Sector" type="text" rawType="String" allowNull="true" name="Sector" id="Sector"/>
@@ -64,6 +68,6 @@
         </mediaConfig>
     </connectors>
     <extra name="ModelCanvasCoordinates" description="Coordinates for ModelCanvasCoordinates" id="ModelCanvasCoordinates">
-        <body>{"DATALIST:Datalist1":{"x":0,"y":0},"DATALIST:Datalist2":{"x":-475,"y":-31},"DATALIST:Datalist3":{"x":500,"y":32}}</body>
+        <body>{"DATALIST:Datalist1":{"x":-302,"y":-172},"DATALIST:Datalist2":{"x":-121,"y":-250},"DATALIST:Datalist3":{"x":47,"y":-123},"DATALIST:Datalist4":{"x":-929,"y":58},"CONNECTOR:Strategy":{"x":-61,"y":-201},"DATALIST:Strategy":{"x":-92,"y":-74},"DATALIST:Sheet2":{"x":-351,"y":-262},"CONNECTOR:Sheet2":{"x":-253,"y":-241},"DATALIST:Datalist5":{"x":1360,"y":23}}</body>
     </extra>
 </ns3:modelConfig>
